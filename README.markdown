@@ -13,7 +13,7 @@ So, we have things to finish this project up, like:
 - [x] making functions 
 - [ ] making bash errors
 
-## How it works
+### How it works
 
 This is how it works on C++-source-style. See here:
 
