@@ -15,7 +15,7 @@ So, we have things to finish this project up, like:
 
 ## How it works
 
-This is how it works. See here:
+This is how it works on C++-source-style. See here:
 
 ```cpp
 // YoussefLandTerminal.cpp : This file contains the 'main' function. Program execution begins and ends there.
@@ -56,3 +56,10 @@ int main()
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 ```
+
+In the future, this example will be removed because:
+* it will be edited.
+* it will have source code improvements on [Visual Studio](https://visualstudio.microsoft.com)'s IDE of C++.
+* it will never return once example is removed from __`README.markdown`__.
+* [Visual Studio](https://visualstudio.microsoft.com) will stop all this basic work for _funny_ reasons of terminal AND command building.
+* more updates are coming soon with __log files__ along with the .log extension.
