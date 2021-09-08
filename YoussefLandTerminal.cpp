@@ -10,15 +10,17 @@ int main()
 {
     char array_char[200]; 
     std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (C) Youssef Land https://github.com/The-Youssef-Nasr-Company/Youssef-Land. All rights reserved.\n";
-    std::cout << "Youssef Land Terminal bash start\n";
+    std::cout << "Bash started. Have fun!\n";
     
     while (1) {
         //std::cin >> array_char;
-        std::cout << "Youssef Land Quick Tests >>> ";
+        std::cout << "Youssef Land Quick Tests $ ";
         cin.getline(array_char,200);
         std::cout << "You entered: ";
         std::cout << array_char;
         std::cout << "\n";
+        if (strcmp(array_char, "kill")==0)
+            break;
     }
 
 }
