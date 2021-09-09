@@ -7,7 +7,7 @@ Welcome to Youssef Land! In this "_bashy_" part of Youssef Land we are referenci
 So, we have things to finish this project up, like:
 
 - [x] making a string array
-- [ ] getting into directories
+- [ ] getting into directories __`(FAILED!)`__
 - [x] making commands to __kill__ the project
 - [x] making "while" functions
 - [x] making functions 
