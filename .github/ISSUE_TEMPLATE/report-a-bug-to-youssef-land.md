@@ -1,5 +1,5 @@
 ---
-name: Report a bug to Youssef Land
+name: Report a bug to Youssef Land 🐛
 about: Create a report to help us improve Youssef Land Terminal
 title: 'BUG: '
 labels: bug
