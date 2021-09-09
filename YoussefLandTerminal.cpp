@@ -1,4 +1,5 @@
 // Youssef Land Terminal: This file (YoussefLandTerminal.cpp) contains the 'main' function. Program execution begins and ends there.
+// This file supports iostream and string.
 
 
 #include  <iostream>
@@ -9,8 +10,8 @@ using namespace std;
 int main()
 {
     char array_char[200]; 
-    std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (C) Youssef Land https://github.com/The-Youssef-Nasr-Company/Youssef-Land. All rights reserved.\n";
-    std::cout << "Bash started. Have fun!\n";
+    std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (C) Youssef Land. All rights reserved.\n";
+    std::cout << "Bash started. Have fun with Youssef Land Terminal!\n";
     
     while (1) {
         //std::cin >> array_char; // That "bashy" code does not support spaces
@@ -21,9 +22,13 @@ int main()
         std::cout << "\n";
         if (strcmp(array_char, "kill")==0)
             break;
-        if (strcmp(array_char, "close") == 0)
+        if (strcmp(array_char, "close")==0)
             break;
         if (strcmp(array_char, "exit")==0)
+            break;
+        if (strcmp(array_char, "break")==0)
+            break;
+        if (strcmp(array_char, "stop")==0)
             break;
     }
 
