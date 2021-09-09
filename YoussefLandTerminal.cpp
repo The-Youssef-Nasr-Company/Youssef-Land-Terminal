@@ -21,6 +21,8 @@ int main()
         std::cout << "\n";
         if (strcmp(array_char, "kill")==0)
             break;
+        if (strcmp(array_char, "exit")==0)
+            break;
     }
 
 }
