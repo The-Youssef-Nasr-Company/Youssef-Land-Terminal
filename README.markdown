@@ -8,7 +8,7 @@ So, we have things to finish this project up, like:
 
 - [x] making a string array
 - [ ] getting into directories
-- [x] making a command to __kill__ the project
+- [x] making commands to __kill__ the project
 - [x] making "while" functions
 - [x] making functions 
 - [ ] making bash errors
