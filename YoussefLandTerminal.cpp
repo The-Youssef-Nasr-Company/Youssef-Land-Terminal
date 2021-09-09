@@ -14,7 +14,7 @@ int main()
     
     while (1) {
         //std::cin >> array_char;
-        std::cout << "Youssef Land Quick Tests $ ";
+        std::cout << "Youssef Land/Terminal/Bash/Visual Studio 2022 Preview/Youssef Land Quick Tests $ ";
         cin.getline(array_char,200);
         std::cout << "You entered: ";
         std::cout << array_char;
