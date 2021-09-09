@@ -17,19 +17,27 @@ int main()
         //std::cin >> array_char; // That "bashy" code does not support spaces
         std::cout << "Youssef Land/Terminal/Bash/Visual Studio 2022 Preview/Youssef Land Quick Tests $ ";
         cin.getline(array_char,200);
-        std::cout << "You entered: ";
-        std::cout << array_char;
-        std::cout << "\n";
         if (strcmp(array_char, "kill")==0)
             break;
-        if (strcmp(array_char, "close")==0)
+        else if (strcmp(array_char, "close")==0)
             break;
-        if (strcmp(array_char, "exit")==0)
+        else if (strcmp(array_char, "exit")==0)
             break;
-        if (strcmp(array_char, "break")==0)
+        else if (strcmp(array_char, "break")==0)
             break;
-        if (strcmp(array_char, "stop")==0)
+        else if (strcmp(array_char, "stop")==0)
             break;
+        else if (strcmp(array_char, "help") == 0) 
+        {
+            std::cout << "Type 'stop', 'kill' 'break', 'close' or 'exit' on Youssef Land Terminal to abort session.\n";
+            std::cout << "Type 'help' on Youssef Land Terminal to check help on current session.\n";
+        }
+        else
+        {
+            std::cout << "You entered: ";
+            std::cout << array_char;
+            std::cout << "\n";
+        }
     }
 
 }
