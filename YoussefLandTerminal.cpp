@@ -30,7 +30,7 @@ int main()
         else if (strcmp(array_char, "help") == 0) 
         {
             std::cout << "Type 'stop', 'kill' 'break', 'close' or 'exit' on Youssef Land Terminal to abort session.\n";
-            std::cout << "Type 'help' on Youssef Land Terminal to check help on current session.\n";
+            std::cout << "Type 'help' on Youssef Land Terminal to get help on current session.\n";
         }
         else
         {
