@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Feature request 🤔
 about: Suggest an idea for Youssef Land Terminal so we will get the frustration away
 title: 'REQUEST: '
 labels: enhancement
