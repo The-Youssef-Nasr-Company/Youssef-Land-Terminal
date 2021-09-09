@@ -7,20 +7,38 @@
 
 using namespace std;
 
+
+
+
 int main()
 {
     char array_char[200]; 
+    char out_sys[200];
     std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (C) 2021 Youssef Land. All rights reserved.\n";
     std::cout << "Bash started. Have fun with Youssef Land Terminal!\n";
     
     while (1) {
         //std::cin >> array_char; // That "bashy" code does not support spaces
-        std::cout << "Youssef Land Quick Tests >>> ";
+        std::cout << "Youssef Land Quick Tests\Youssef Land Terminal >>> ";
         cin.getline(array_char,200);
         if (strcmp(array_char, "") == 0)
             std::cout << "You entered nothing.\n";
         else if (strcmp(array_char, "cd") == 0)
             system("cd");
+        else if (strcmp(array_char, "dir") == 0)
+            system("dir");
+        else if (strcmp(array_char, "ls") == 0)
+            system("dir");
+        else if (strcmp(array_char, "mkdir") == 0)
+            system("mkdir");
+        else if (array_char[0] == 'c' && array_char[1] == 'd' && array_char[2] == ' ')
+        {
+            string add_str = string(array_char) + " && cd";
+            strcpy_s(out_sys, add_str.c_str());
+            //std::cout << out_sys;
+            system(out_sys);
+
+        }
         else if (strcmp(array_char, "kill")==0)
             break;
         else if (strcmp(array_char, "close")==0)
@@ -37,7 +55,7 @@ int main()
         {
             std::cout << "Type 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort session.\n";
             std::cout << "Type 'help' on Youssef Land Terminal to get help on current session.\n";
-            std::cout << "Type 'cd' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
+            std::cout << "Type 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
         }
         else
         {
