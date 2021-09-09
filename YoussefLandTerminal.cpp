@@ -1,4 +1,4 @@
-// YoussefLandTerminal.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Youssef Land Terminal: This file (YoussefLandTerminal.cpp) contains the 'main' function. Program execution begins and ends there.
 
 
 #include  <iostream>
@@ -13,13 +13,15 @@ int main()
     std::cout << "Bash started. Have fun!\n";
     
     while (1) {
-        //std::cin >> array_char;
+        //std::cin >> array_char; // That "bashy" code does not support spaces
         std::cout << "Youssef Land/Terminal/Bash/Visual Studio 2022 Preview/Youssef Land Quick Tests $ ";
         cin.getline(array_char,200);
         std::cout << "You entered: ";
         std::cout << array_char;
         std::cout << "\n";
         if (strcmp(array_char, "kill")==0)
+            break;
+        if (strcmp(array_char, "close") == 0)
             break;
         if (strcmp(array_char, "exit")==0)
             break;
