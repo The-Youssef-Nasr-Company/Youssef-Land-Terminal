@@ -2,9 +2,9 @@
 // This file supports iostream and string.
 
 
-#include  <iostream>
-#include  <string>
-#include  "termcolor.hpp"
+#include <iostream>
+#include <string>
+#include "termcolor.hpp"
 #include <windows.h>
 
 using namespace std;
