@@ -18,7 +18,7 @@ So, we have things to finish this project up, like:
 
 There's something REALLY helpful.
 
-## The files that are helpful
+## These files are VERY helpful
 
 Name of file | Description | Extension |
 ------------ | ----------- | --------- |
