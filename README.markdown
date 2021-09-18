@@ -22,4 +22,4 @@ There's something REALLY helpful.
 
 Name of file | Description | Extension |
 ------------ | ----------- | --------- |
-| [`termcolor.hpp`](https://github.com/ikalnytskyi/termcolor) | Termcolor is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force. | `*.hpp` |
+| [`termcolor.hpp`](https://github.com/ikalnytskyi/termcolor) | Termcolor is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force. | [`*.hpp`](https://en.wikipedia.org/wiki/C%2B%2B) (C++ header file. [C++ entry for Wikipedia is here](https://en.wikipedia.org/wiki/C%2B%2B).) |
