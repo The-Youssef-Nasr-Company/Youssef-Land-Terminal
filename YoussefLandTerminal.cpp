@@ -8,7 +8,13 @@
 #include <windows.h>
 
 using namespace std;
-
+namespace YoussefLand 
+{
+    namespace Intranet
+    {
+        int x = 2;
+    }
+}
 
 
 
@@ -69,7 +75,7 @@ int main()
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
             std::cout << "Enter 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
             std::cout << "Enter nothing to see the bash warning message 'You entered nothing'.\n";
-            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ for Youssef Land Terminal) to see the bash error message 'The text you entered was not programmed as a C++ command for Youssef Land Terminal'.\n";
+            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the bash error message 'The text you entered was not programmed as a C++ command or C++ code for Youssef Land Terminal'.\n";
         }
         else
         {
@@ -77,7 +83,7 @@ int main()
             //std::cout << array_char;
             //std::cout << "\n";
             std::cout << termcolor::red << "ERROR:";
-            std::cout << termcolor::red << " bash: The text you entered was not programmed as a C++ command for Youssef Land Terminal.\n";
+            std::cout << termcolor::red << " bash: The text you entered was not programmed as a C++ command or C++ code for Youssef Land Terminal.\n";
             std::cout << termcolor::white;
         }
     }
