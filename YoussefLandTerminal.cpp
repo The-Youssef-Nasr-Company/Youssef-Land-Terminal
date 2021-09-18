@@ -25,7 +25,10 @@ int main()
         std::cout << "Youssef Land Quick Tests/Youssef Land Terminal >>> ";
         cin.getline(array_char, 200);
         if (strcmp(array_char, "") == 0)
-            std::cout << "You entered nothing.\n";
+        {
+            std::cout << termcolor::yellow << "WARNING: bash: You entered nothing.\n";
+            std::cout << termcolor::white;
+        }
         else if (strcmp(array_char, "cd") == 0)
         {
             system("cd");
@@ -65,6 +68,8 @@ int main()
             std::cout << "Enter 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort current session.\n";
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
             std::cout << "Enter 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
+            std::cout << "Enter nothing to see the bash warning message 'You entered nothing'.\n";
+            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ for Youssef Land Terminal) to see the bash error message 'The text you entered was not programmed as a C++ command for Youssef Land Terminal'.\n";
         }
         else
         {
