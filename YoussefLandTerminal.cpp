@@ -26,6 +26,8 @@ int main()
         cin.getline(array_char, 200);
         if (strcmp(array_char, "") == 0)
             std::cout << "You entered nothing.\n";
+        else if (strcmp(array_char, "make") == 0)
+            system("make");
         else if (strcmp(array_char, "cd") == 0)
         {
             system("cd");
