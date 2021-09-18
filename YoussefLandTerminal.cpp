@@ -4,6 +4,7 @@
 
 #include  <iostream>
 #include  <string>
+#include  "termcolor.hpp"
 
 using namespace std;
 
@@ -19,18 +20,24 @@ int main()
     
     while (1) {
         //std::cin >> array_char; // That "bashy" code does not support spaces
-        std::cout << "Youssef Land Quick Tests\Youssef Land Terminal >>> ";
-        cin.getline(array_char,200);
+        std::cout << "Youssef Land Quick Tests/Youssef Land Terminal >>> ";
+        cin.getline(array_char, 200);
         if (strcmp(array_char, "") == 0)
             std::cout << "You entered nothing.\n";
         else if (strcmp(array_char, "cd") == 0)
+        {
             system("cd");
+            system(array_char);
+        }
         else if (strcmp(array_char, "dir") == 0)
             system("dir");
         else if (strcmp(array_char, "ls") == 0)
             system("dir");
         else if (strcmp(array_char, "mkdir") == 0)
+        {
             system("mkdir");
+            system(array_char);
+        }
         else if (array_char[0] == 'c' && array_char[1] == 'd' && array_char[2] == ' ')
         {
             string add_str = string(array_char) + " && cd";
@@ -53,21 +60,24 @@ int main()
             break;
         else if (strcmp(array_char, "help")==0) 
         {
-            std::cout << "Type 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort session.\n";
-            std::cout << "Type 'help' on Youssef Land Terminal to get help on current session.\n";
-            std::cout << "Type 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
+            std::cout << "Enter 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort current session.\n";
+            std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
+            std::cout << "Enter 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
         }
         else
         {
-            std::cout << "You entered: ";
-            std::cout << array_char;
-            std::cout << "\n";
+            //std::cout << "You entered: ";
+            //std::cout << array_char;
+            //std::cout << "\n";
+            std::cout << termcolor::red << "ERROR:";
+            std::cout << termcolor::red << " bash: The text you entered was not programmed as a C++ command for Youssef Land Terminal.\n";
+            std::cout << termcolor::white;
         }
     }
 
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Run program without debug: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
 // Tips for Getting Started: 
