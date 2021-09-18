@@ -6,10 +6,11 @@ Welcome to Youssef Land! In this "_bashy_" part of Youssef Land we are referenci
 
 So, we have things to finish this project up, like:
 
-- [x] making a string array
+- [x] making a character array
 - [ ] getting into directories __`(FAILED!)`__
 - [x] making commands to __kill__ the project
 - [x] making "while" functions
 - [x] making functions 
-- [ ] making bash errors
+- [x] making bash errors
+- [ ] making bash warnings
 - [x] making a command called "help" for helping people become an expert at terminals
