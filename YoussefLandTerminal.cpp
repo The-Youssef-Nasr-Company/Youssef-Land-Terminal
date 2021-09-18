@@ -5,6 +5,7 @@
 #include  <iostream>
 #include  <string>
 #include  "termcolor.hpp"
+#include <windows.h>
 
 using namespace std;
 
@@ -18,7 +19,8 @@ int main()
     std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (C) 2021 Youssef Land. All rights reserved.\n";
     std::cout << "Bash started. Have fun with Youssef Land Terminal!\n";
     
-    while (1) {
+    while (1)
+    {
         //std::cin >> array_char; // That "bashy" code does not support spaces
         std::cout << "Youssef Land Quick Tests/Youssef Land Terminal >>> ";
         cin.getline(array_char, 200);
