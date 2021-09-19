@@ -8,11 +8,49 @@
 #include <windows.h>
 
 using namespace std;
+using namespace termcolor;
+
 namespace YoussefLand 
 {
+    int Intranet_Internal_Things = 10;
+
+    namespace anonymous
+    {
+        int anony, non_visible = true;
+        using namespace Intranet;
+        using namespace Internal_Forever;
+    }
+    
     namespace Intranet
     {
-        int x = 2;
+        int Internal = 2;
+        namespace Internal_Forever
+        {
+            int Commands = 200;
+
+            using namespace Intranet;
+
+            namespace Hackathon 
+            {
+                int Hacking = true;
+            }
+
+            namespace YoussefLandForever
+            {
+                using namespace Internal_Forever;
+                using namespace YoussefLand;
+                int Forever = true;
+                int Temporary = false;
+                int Permanent = true;
+                int Command_Line = Commands;
+                namespace Youssef_Land_Code
+                {
+                    int Code = true;
+                    const char * Terminal_Copying = "CTRL" + "<c>";
+                    const char * Terminal_Pasting = "CTRL" + "<v>";
+                }
+            }
+        }
     }
 }
 
@@ -35,6 +73,8 @@ int main()
             std::cout << termcolor::yellow << "WARNING: bash: You entered nothing.\n";
             std::cout << termcolor::white;
         }
+        else if (strcmp(array_char, "cmd") == 0)
+            system("cmd");
         else if (strcmp(array_char, "cd") == 0)
         {
             system("cd");
