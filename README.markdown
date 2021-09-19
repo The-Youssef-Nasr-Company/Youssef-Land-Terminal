@@ -20,6 +20,6 @@ There's something REALLY helpful.
 
 ## These files are VERY helpful
 
-Name of file (including extension) | Description | Extension | Description of extension |
----------------------------------- | ----------- | --------- | ------------------------ |
+Name of file (including extension) | Description of GitHub repo | Extension | Description of extension |
+---------------------------------- | -------------------------- | --------- | ------------------------ |
 | [`termcolor.hpp`](https://github.com/ikalnytskyi/termcolor) | __[Termcolor](https://github.com/ikalnytskyi/termcolor)__ is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force. | `*.hpp` | C++ header file. [C++ entry for Wikipedia is here](https://en.wikipedia.org/wiki/C%2B%2B). |
