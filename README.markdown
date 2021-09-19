@@ -12,7 +12,7 @@ So, we have things to finish this project up, like:
 - [x] making "while" functions
 - [x] making functions 
 - [x] making bash errors
-- [ ] making bash warnings
+- [x] making bash warnings
 - [x] making a command called `help` for helping people become experts at terminals
 
 
