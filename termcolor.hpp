@@ -1,3 +1,10 @@
+//! FAIR USE
+//! ~~~~~~~~
+//!
+//! Fair use is using the copyright owner's helpful objects without
+//! asking for permission. This was used by Youssef Land Terminal.
+//!
+//! ________________________________________________________________
 //!
 //! termcolor
 //! ~~~~~~~~~
