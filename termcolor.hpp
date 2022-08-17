@@ -1,9 +1,10 @@
 //! FAIR USE
 //! ~~~~~~~~
 //!
-//! Fair use is using the copyright owner's helpful objects without
-//! asking for permission. This was used by Youssef Land Terminal.
-//!
+//! Fair use is using the :copyright: owner's helpful and valuable
+//! objects without asking for permission. This was used by Youssef
+//! Land Terminal without permission and they didn't mean to infr-
+//! inge :copyright:.
 //! ________________________________________________________________
 //!
 //! termcolor
