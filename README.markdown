@@ -1,6 +1,6 @@
 # Youssef Land Terminal
 
-Welcome to Youssef Land! In this "_bashy_" part of Youssef Land we are referencing __Youssef Land Terminal__! So, on this project, we are including "iostream" for its functions of C++. We used "string" as well. (__[Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview)__ was used.) Whenever you need keyboard instructions, well, here we go!
+Welcome to Youssef Land! In this "_bashy_" part of Youssef Land we are referencing __Youssef Land Terminal__! So, on this project, we are including "iostream" for its functions of C++. We used "string" as well. (__[Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview)/[Visual Studio 2022 Current](https://visualstudio.microsoft.com/vs)__ was used.) Whenever you need keyboard instructions, well, here we go!
 
 ## Overview
 
