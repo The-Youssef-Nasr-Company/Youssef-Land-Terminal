@@ -9,53 +9,6 @@
 
 using namespace std;
 using namespace termcolor;
-
-namespace YoussefLand 
-{
-    int Intranet_Internal_Things = 10;
-
-    namespace anonymous
-    {
-        int anony, non_visible = true;
-        using namespace Intranet;
-        using namespace Internal_Forever;
-    }
-    
-    namespace Intranet
-    {
-        int Internal = 2;
-        namespace Internal_Forever
-        {
-            int Commands = 200;
-
-            using namespace Intranet;
-
-            namespace Hackathon 
-            {
-                int Hacking = true;
-            }
-
-            namespace YoussefLandForever
-            {
-                using namespace Internal_Forever;
-                using namespace YoussefLand;
-                int Forever = true;
-                int Temporary = false;
-                int Permanent = true;
-                int Command_Line = Commands;
-                namespace Youssef_Land_Code
-                {
-                    int Code = true;
-                    const char * Terminal_Copying = "CTRL" + "<c>";
-                    const char * Terminal_Pasting = "CTRL" + "<v>";
-                }
-            }
-        }
-    }
-}
-
-
-
 int main()
 {
     char array_char[200]; 
@@ -123,7 +76,9 @@ int main()
             //std::cout << array_char;
             //std::cout << "\n";
             std::cout << termcolor::red << "ERROR:";
-            std::cout << termcolor::red << " bash: The text you entered was not programmed as a C++ command or C++ code for Youssef Land Terminal.\n";
+            std::cout << termcolor::red << " bash: ";
+            std::cout << termcolor::red << array_char;
+            std::cout << termcolor::red << " was not programmed as a C++ command or C++ code for Youssef Land Terminal.\n";
             std::cout << termcolor::white;
         }
     }
