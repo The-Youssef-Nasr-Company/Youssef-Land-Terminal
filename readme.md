@@ -11,7 +11,7 @@ So, we have things to finish this project up, like:
 - [x] making functions; 
 - [x] making bash errors;
 - [x] making bash warnings;
-- [x] making a command called `help` for helping people become experts at terminals.
+- [x] making a command called `help` for helping people become experts at __Youssef Land Terminal__.
 
 
 There's something REALLY helpful.
