@@ -13,17 +13,23 @@ int main()
 {
     char array_char[200]; 
     char out_sys[200];
-    std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (C) 2021 Youssef Land. All rights reserved.\n";
+    std::cout << "Youssef Land Terminal. The command quest for easy. © 2021-2022 Youssef Land. All rights reserved.\n";
     std::cout << "Bash started. Have fun with Youssef Land Terminal!\n";
     
     while (1)
     {
         //std::cin >> array_char; // That "bashy" code does not support spaces
-        std::cout << "Youssef Land Quick Tests/Youssef Land Terminal >>> ";
+        std::cout << termcolor::green << "ItsYou";
+        std::cout << termcolor::white << "@";
+        std::cout << termcolor::blue;
+        std::cout << "win11";
+        std::cout << termcolor::magenta;
+        std::cout << "/This PC/C:/Users/Youssef Land/Youssef Land Quick Tests/Youssef Land Terminal";
+        std::cout << termcolor::white << "$ ";
         cin.getline(array_char, 200);
         if (strcmp(array_char, "") == 0)
         {
-            std::cout << termcolor::yellow << "WARNING: bash: You entered nothing.\n";
+            std::cout << termcolor::yellow << "WARNING: Youssef Land Terminal: You entered nothing.\n";
             std::cout << termcolor::white;
         }
         else if (strcmp(array_char, "cmd") == 0)
@@ -68,7 +74,12 @@ int main()
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
             std::cout << "Enter 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
             std::cout << "Enter nothing to see the bash warning message 'You entered nothing'.\n";
-            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the bash error message 'The text you entered was not programmed as a C++ command or C++ code for Youssef Land Terminal'.\n";
+            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the error message '\"The text you entered\" does not have C++ code for Youssef Land Terminal'.\n";
+        }
+        else if (strcmp(array_char, "#ff0000")==0)
+        {
+            std::cout << termcolor::red << "Hex code #ff0000 = color red\n";
+            std::cout << termcolor::white;
         }
         else
         {
@@ -76,9 +87,9 @@ int main()
             //std::cout << array_char;
             //std::cout << "\n";
             std::cout << termcolor::red << "ERROR:";
-            std::cout << termcolor::red << " bash: ";
+            std::cout << termcolor::red << " Youssef Land Terminal: '";
             std::cout << termcolor::red << array_char;
-            std::cout << termcolor::red << " was not programmed as a C++ command or C++ code for Youssef Land Terminal.\n";
+            std::cout << termcolor::red << "' does not have C++ code for Youssef Land Terminal to work with.\n";
             std::cout << termcolor::white;
         }
     }
