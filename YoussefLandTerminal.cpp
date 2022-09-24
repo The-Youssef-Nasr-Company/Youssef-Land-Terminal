@@ -18,7 +18,7 @@ int main()
     
     while (1)
     {
-        //std::cin >> array_char; // That "bashy" code does not support spaces
+        //std::cin >> array_char; That "bashy" code does not support spaces
         std::cout << termcolor::green << "ItsYou";
         std::cout << termcolor::white << "@";
         std::cout << termcolor::blue;
@@ -48,14 +48,6 @@ int main()
             system("mkdir");
             system(array_char);
         }
-        else if (array_char[0] == 'c' && array_char[1] == 'd' && array_char[2] == ' ')
-        {
-            string add_str = string(array_char) + " && cd";
-            strcpy_s(out_sys, add_str.c_str());
-            //std::cout << out_sys;
-            system(out_sys);
-
-        }
         else if (strcmp(array_char, "kill")==0)
             break;
         else if (strcmp(array_char, "close")==0)
@@ -72,9 +64,9 @@ int main()
         {
             std::cout << "Enter 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort current session.\n";
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
-            std::cout << "Enter 'cd', 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
+            std::cout << "Enter 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
             std::cout << "Enter nothing to see the bash warning message 'You entered nothing'.\n";
-            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the error message '\"The text you entered\" does not have C++ code for Youssef Land Terminal'.\n";
+            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the error message '\"ENTERED TEXT HERE\" does not have C++ code for Youssef Land Terminal to work with'.\n";
         }
         else if (strcmp(array_char, "#ff0000")==0)
         {
