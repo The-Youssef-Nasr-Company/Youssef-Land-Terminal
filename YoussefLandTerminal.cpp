@@ -22,7 +22,7 @@ int main()
         std::cout << termcolor::green << "ItsYou";
         std::cout << termcolor::white << "@";
         std::cout << termcolor::blue;
-        std::cout << "win11";
+        std::cout << "win11 ";
         std::cout << termcolor::magenta;
         std::cout << "/This PC/C:/Users/Youssef Land/Youssef Land Quick Tests/Youssef Land Terminal";
         std::cout << termcolor::white << "$ ";
@@ -78,7 +78,12 @@ int main()
         }
         else if (strcmp(array_char, "#ff0000")==0)
         {
-            std::cout << termcolor::red << "Hex code #ff0000 = color red\n";
+            std::cout << termcolor::red << "Hex code #FF0000 = color red\n";
+            std::cout << termcolor::white;
+        }
+        else if (strcmp(array_char, "#FF0000") == 0)
+        {
+            std::cout << termcolor::red << "Hex code #FF0000 = color red\n";
             std::cout << termcolor::white;
         }
         else
