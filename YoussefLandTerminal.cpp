@@ -79,7 +79,7 @@ int main()
             std::cout << termcolor::white;
         }
         else if (strcmp(array_char, "clear all lines")==0)
-            system("clear");
+            system("powershell clear");
         else
         {
             //std::cout << "You entered: ";
