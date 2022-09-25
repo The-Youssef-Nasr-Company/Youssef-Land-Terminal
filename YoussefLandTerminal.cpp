@@ -78,7 +78,7 @@ int main()
             std::cout << termcolor::red << "Hex code #FF0000 = color red\n";
             std::cout << termcolor::white;
         }
-        else if (strcmp(array_char, "clear all lines"))
+        else if (strcmp(array_char, "clear all lines")==0)
             system("clear");
         else
         {
