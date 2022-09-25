@@ -19,12 +19,12 @@ int main()
     while (1)
     {
         //std::cin >> array_char; That "bashy" code does not support spaces
-        std::cout << termcolor::green << "ItsYou";
+        std::cout << termcolor::green << "youssef-land";
         std::cout << "@";
         std::cout << "win11";
         std::cout << termcolor::white << ":";
-        std::cout << termcolor::blue;
-        std::cout << "/This PC/C:/Users/Youssef Land/Youssef Land Quick Tests/Youssef Land Terminal";
+        std::cout << termcolor::bright_blue;
+        std::cout << "~/Desktop/Youssef Land Quick Tests/Youssef Land Terminal";
         std::cout << termcolor::white << "$ ";
         cin.getline(array_char, 200);
         if (strcmp(array_char, "") == 0)
