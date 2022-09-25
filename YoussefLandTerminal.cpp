@@ -48,19 +48,19 @@ int main()
             system("mkdir");
             system(array_char);
         }
-        else if (strcmp(array_char, "kill")==0)
+        else if (strcmp(array_char, "kill") == 0)
             break;
-        else if (strcmp(array_char, "close")==0)
+        else if (strcmp(array_char, "close") == 0)
             break;
-        else if (strcmp(array_char, "exit")==0)
+        else if (strcmp(array_char, "exit") == 0)
             break;
-        else if (strcmp(array_char, "break")==0)
+        else if (strcmp(array_char, "break") == 0)
             break;
-        else if (strcmp(array_char, "stop")==0)
+        else if (strcmp(array_char, "stop") == 0)
             break;
-        else if (strcmp(array_char, "abort")==0)
+        else if (strcmp(array_char, "abort") == 0)
             break;
-        else if (strcmp(array_char, "help")==0) 
+        else if (strcmp(array_char, "help") == 0)
         {
             std::cout << "Enter 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort current session.\n";
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
@@ -68,7 +68,7 @@ int main()
             std::cout << "Enter nothing to see the bash warning message 'You entered nothing'.\n";
             std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the error message '\"ENTERED TEXT HERE\" does not have C++ code for Youssef Land Terminal to work with'.\n";
         }
-        else if (strcmp(array_char, "#ff0000")==0)
+        else if (strcmp(array_char, "#ff0000") == 0)
         {
             std::cout << termcolor::red << "Hex code #FF0000 = color red\n";
             std::cout << termcolor::white;
@@ -78,6 +78,8 @@ int main()
             std::cout << termcolor::red << "Hex code #FF0000 = color red\n";
             std::cout << termcolor::white;
         }
+        else if (strcmp(array_char, "clear all lines"))
+            system("clear");
         else
         {
             //std::cout << "You entered: ";
