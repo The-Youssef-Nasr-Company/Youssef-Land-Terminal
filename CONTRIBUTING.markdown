@@ -1,3 +1,2 @@
 # C++ Contributing Guidelines
-
-NO CURSE WORDS ALLOWED!
+__NO CURSE WORDS ALLOWED!__
