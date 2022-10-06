@@ -19,7 +19,7 @@ int main()
     while (1)
     {
         //std::cin >> array_char; That "bashy" code does not support spaces
-        std::cout << termcolor::green << "youssef-land";
+        std::cout << termcolor::bright_green << "youssef-land";
         std::cout << "@";
         std::cout << "win11";
         std::cout << termcolor::white << ":";
@@ -64,7 +64,8 @@ int main()
         {
             std::cout << "Enter 'stop', 'kill' 'break', 'close', 'exit' or 'abort' on Youssef Land Terminal to abort current session.\n";
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
-            std::cout << "Enter 'dir' or 'ls' on Youssef Land Terminal to show directory where YoussefLandTerminal.exe is.\n";
+            std::cout << "Enter 'dir' or 'ls' on Youssef Land Terminal to show directory where Youssef Land Terminal is.\n";
+            std::cout << "Enter 'about' to know about this terminal (available since 0.0.1 beta 3).\n";
             std::cout << "Enter nothing to see the bash warning message 'You entered nothing'.\n";
             std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the error message '\"ENTERED TEXT HERE\" does not have C++ code for Youssef Land Terminal to work with'.\n";
         }
@@ -80,6 +81,13 @@ int main()
         }
         else if (strcmp(array_char, "clear all lines") == 0)
             system("powershell clear");
+        else if (strcmp(array_char, "about") == 0)
+        {
+            std::cout << "Youssef Land Terminal version ";
+            std::cout << termcolor::green << "0.0.1 Beta 3 (a beta version)\n";
+            std::cout << termcolor::white << "A terminal made of C++ with Visual Studio 2022 (Preview in 2021).\n";
+            std::cout << "Copyright (C) 2021-2022 Youssef Land. All rights reserved.\n";
+        }
         else
         {
             //std::cout << "You entered: ";
