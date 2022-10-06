@@ -2,7 +2,7 @@
   "configurations": [
     {
       "inheritEnvironments": [
-        "msvc_x86"
+        "msvc_x64"
       ],
       "name": "x64-bit Debug",
       "includePath": [
