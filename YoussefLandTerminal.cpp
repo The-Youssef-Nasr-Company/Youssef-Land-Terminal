@@ -13,13 +13,13 @@ int main()
 {
     char array_char[200]; 
     char out_sys[200];
+    system("title Youssef Land Terminal");
     std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (c) 2021-2022 Youssef Land. All rights reserved.\n";
     std::cout << "Bash started. Have fun with Youssef Land Terminal!\n";
     
     while (1)
     {
         //std::cin >> array_char; That "bashy" code does not support spaces
-        system("title Youssef Land Terminal");
         std::cout << termcolor::bright_green << "youssef-land";
         std::cout << "@";
         std::cout << "win11";
