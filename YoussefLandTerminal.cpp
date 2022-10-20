@@ -12,7 +12,9 @@ using namespace termcolor;
 int main()
 {
     char array_char[200]; 
-    char out_sys[200];
+    char out_sys[196];
+    char dbg[5];
+
     system("title Youssef Land Terminal");
     std::cout << "Youssef Land Terminal. The command quest for easy. Copyright (c) 2021-2022 Youssef Land. All rights reserved.\n";
     std::cout << "Bash started. Have fun with Youssef Land Terminal!\n";
@@ -28,6 +30,12 @@ int main()
         std::cout << "~/Desktop/Youssef Land Quick Tests/Youssef Land Terminal";
         std::cout << termcolor::white << "$ ";
         cin.getline(array_char, 200);
+        dbg[0] = array_char[0];
+        dbg[1] = array_char[1];
+        dbg[2] = array_char[2];
+        dbg[3] = array_char[3];
+        dbg[4] = '\0';
+        //std::cout << termcolor::blue << dbg;
         if (strcmp(array_char, "cmd") == 0)
             system("cmd");
         else if (strcmp(array_char, "dir") == 0)
@@ -52,7 +60,7 @@ int main()
             std::cout << "Enter 'help' on Youssef Land Terminal to get help on current session.\n";
             std::cout << "Enter 'dir' or 'ls' on Youssef Land Terminal to show directory where Youssef Land Terminal is.\n";
             std::cout << "Enter 'about' to know about this terminal (available since 0.0.1 beta 3).\n";
-            std::cout << "Enter gibberish and basic stuff (except for C++-programmed commands programmed in C++ and code in C++ for Youssef Land Terminal) to see the error message '\"ENTERED TEXT HERE\" does not have C++ code for Youssef Land Terminal to work with'.\n";
+            std::cout << "Enter gibberish and basic stuff (except for code in C++ for Youssef Land Terminal) to see the error message '\"ENTERED TEXT HERE\" does not have C++ code for Youssef Land Terminal to work with'.\n";
         }
         else if (strcmp(array_char, "#ff0000") == 0)
         {
@@ -72,6 +80,19 @@ int main()
             std::cout << termcolor::green << "0.0.1 Beta 3 (a beta version)\n";
             std::cout << termcolor::white << "A terminal made of C++ with Visual Studio 2022 (Preview in 2021).\n";
             std::cout << "Copyright (c) 2021-2022 Youssef Land. All rights reserved.\n";
+        }
+        else if (strcmp(array_char, "") == 0)
+        {
+            system;
+        }
+        else if (strcmp(dbg, "say ") == 0)
+        {
+            for (int k = 0; k < 196; k++) {
+                out_sys[k] = array_char[k+4];
+            }
+            
+            std::cout << out_sys;
+            std::cout << "\n";
         }
         else
         {
