@@ -20,4 +20,5 @@ There's something REALLY helpful.
 | ---------------------------------- | -------------------------- | --------- | ------------------------ |
 | [`termcolor.hpp`](https://github.com/ikalnytskyi/termcolor) | __[Termcolor](https://github.com/ikalnytskyi/termcolor)__ is a header-only C++ library for printing colored messages to the terminal. Written just for fun with a help of the Force. | `*.hpp` | C++ header file. [C++ entry for Wikipedia is here](https://en.wikipedia.org/wiki/C%2B%2B). |
 ## Requirements
-__OS needed:__ Windows 11 (no required components for __Youssef Land Terminal__!)
+__OS needed:__ Windows 11 (no required components for __Youssef Land Terminal__! 😉)
+## [Wiki](https://github.com/The-Youssef-Nasr-Company/Youssef-Land-Terminal/wiki)
