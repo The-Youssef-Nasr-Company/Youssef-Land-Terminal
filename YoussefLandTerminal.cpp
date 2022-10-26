@@ -23,7 +23,7 @@ int main()
         std::cout << "win11";
         std::cout << termcolor::white << ":";
         std::cout << termcolor::bright_blue;
-        std::cout << "~/Desktop/Youssef Land Quick Tests/Youssef Land Terminal $";
+        std::cout << "~/Desktop/Youssef Land Quick Tests/Youssef Land Terminal $ ";
         std::cout << termcolor::white;
         cin.getline(array_char, 200);
         dbg[0] = array_char[0];
