@@ -5,8 +5,7 @@ Welcome to Youssef Land! In this "_bashy_" part of Youssef Land we are referenci
 So, we have things to finish this project up, like:
 
 - [x] making a character array;
-- [ ] getting into directories __`(FAILED!)`__;
-- [x] making commands to __kill__ the project;
+- [x] making commands to make the project exit;
 - [x] making while loops;
 - [x] making functions; 
 - [x] making bash errors;
