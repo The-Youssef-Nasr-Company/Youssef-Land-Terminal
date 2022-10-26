@@ -1,7 +1,3 @@
-// Youssef Land Terminal: This file (YoussefLandTerminal.cpp) contains the 'main' function. Program execution begins and ends there.
-// This file supports iostream and string. It even supports termcolor and windows.
-
-
 #include <iostream>
 #include <string>
 #include "termcolor.hpp"
