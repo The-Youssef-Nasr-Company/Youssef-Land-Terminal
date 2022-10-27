@@ -31,6 +31,7 @@ int main()
         dbg[2] = array_char[2];
         dbg[3] = array_char[3];
         dbg[4] = '\0';
+        string version = "0.0.1 Alpha (the official alpha version of Youssef Land Terminal 0.0.1)";
         //std::cout << termcolor::blue << dbg;
         if (strcmp(array_char, "cmd") == 0)
             system("cmd");
@@ -73,8 +74,9 @@ int main()
         else if (strcmp(array_char, "about") == 0)
         {
             std::cout << "Youssef Land Terminal version ";
-            std::cout << termcolor::green << "0.0.1 Beta 3 (a beta version)\n";
-            std::cout << termcolor::white << "A terminal made of C++ with Visual Studio 2022 (Preview in 2021).\n";
+            std::cout << termcolor::yellow << version;
+            std::cout << "\n";
+            std::cout << termcolor::white << "A terminal made of C++ with Visual Studio 2022 (Preview in 2021 and was used in 2021).\n";
             std::cout << "Copyright (c) 2021-2022 Youssef Land. All rights reserved.\n";
         }
         else if (strcmp(array_char, "") == 0)
