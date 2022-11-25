@@ -9,7 +9,7 @@ So, we have things to finish this project up, like:
 - [x] making while loops;
 - [x] making functions; 
 - [x] making bash errors;
-- [ ] making bash warnings `__(DEPRECATED)__`;
+- [ ] making bash warnings __`(DEPRECATED)`__;
 - [x] making a command called `help` for helping people become experts at __Youssef Land Terminal__.
 
 
